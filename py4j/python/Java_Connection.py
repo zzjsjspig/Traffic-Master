@@ -24,7 +24,7 @@ class Java_Connection():
         this_folder = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
         root_folder = os.path.dirname(this_folder)
         jar_file_name = os.path.join(root_folder,'target', 'otm-py4j-1.0-SNAPSHOT-jar-with-dependencies.jar')
-
+        
         #First check if the file exists indeed:
         if os.path.isfile(jar_file_name):
 
