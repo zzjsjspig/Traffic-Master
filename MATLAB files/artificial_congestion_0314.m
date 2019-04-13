@@ -1,7 +1,7 @@
 clear
 close all
 
-configfile = '/Users/jeff/Downloads/otm-base-master/src/main/resources/test_configs/Capstone_0314.xml';
+configfile = '/Users/jeff/Downloads/otm-base-master/src/main/resources/test_configs/Capstone_0314_max.xml';
 duration = 3600;
 out_dt = 10;
 
@@ -97,3 +97,4 @@ ylabel('Link IDs')
 xlabel('Time (seconds)')
 tvh=sum(sum(X.vehs))
 tvm=sum(sum(X.flows_vph))
+
