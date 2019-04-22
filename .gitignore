@@ -1,0 +1,4 @@
+.idea/
+.ipynb_checkpoints/
+py4j/python/__pycache__/
+*.pyc
